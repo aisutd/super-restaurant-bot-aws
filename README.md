@@ -32,14 +32,5 @@ Libraries/APIs used:
 - boto3 - standard AWS library for python.
 - python's json library - used for dealing with JSON input and output.
 
-## Testing Instructions for AWS Chatbot Challenge:
-If you are here as a judge for the AWS Chatbot Challenge, this application is now public. The Facebook page can be found at: https://www.facebook.com/superrestaurantbot/
-Here is how to test this bot:
-- If you want to find a restaurant type something such as "Find a restaurant" and then the bot will prompt you for a city and the type of food
-you would prefer. If the city does not exist, an exception is triggered and the bot will tell you that no places were found and perhaps the city was
-invalid. The bot should return a list of search results for that query.
-- If you want to get the reviews for a restaurant type "Get reviews" or something such as "get reviews for <Restaurant Name>" and follow a similar process as in the 
-previous intent.
-- The GetAddress intent also follows a similar process.
-
-
+## 2017 AIS Chat Bot Workshop
+This chatbot was used as a demonstration for our 2017 AIS Chat Bot workshop on October 12, 2017. If you attended this workshop and want to see the entire code for this bot, feel free to browse this repository.
